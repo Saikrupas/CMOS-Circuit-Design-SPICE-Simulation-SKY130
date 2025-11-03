@@ -10,7 +10,7 @@ No local setup required — everything runs inside your browser tab.
 From your GitHub repository page:
 
 1. Click on **Code → Codespaces → Create codespace on main**
-   ![Create Codespace](images/1.jpg)
+   ![Create Codespace](1.jpg)
 
 GitHub will automatically create a cloud-based Ubuntu environment for you.
 All setup and dependencies are pre-configured.
@@ -27,7 +27,7 @@ exit
 ```
 
 You’ll see the ngspice version banner confirming installation.
-![ngspice verification](images/2_1.jpg)
+![ngspice verification](2_1.jpg)
 
 If ngspice exits successfully, your setup is ready.
 
@@ -39,12 +39,12 @@ If ngspice exits successfully, your setup is ready.
 This Codespace comes with a full **graphical desktop environment** accessible through **noVNC**.
 Check the **PORTS** tab for a forwarded VNC link, typically on port `6080`.
 
-![ngspice terminal view](images/2_2.jpg)
+![ngspice terminal view](2_2.jpg)
 
 
 Click the forwarded address and click on "**vnc_lite.html**" as shown in below image — it opens a Linux desktop in your browser:
 
-![noVNC port forwarding](images/3_1.jpg)
+![noVNC port forwarding](3_1.jpg)
 
 
 Use this environment to visualize ngspice plots and waveforms interactively.
@@ -76,7 +76,7 @@ cd /workspaces/vsd-cmos/sky130CircuitDesignWorkshop/design
 ngspice day1_nfet_idvds_L2_W5.spice
 ```
 
-![workspace layout](images/4.jpg)
+![workspace layout](4.jpg)
 
 
 This opens an ngspice waveform window in the GUI (via noVNC) as shown in above image.
