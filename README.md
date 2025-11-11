@@ -9,7 +9,18 @@ This repository contains my work from the **Workshop** on **CMOS Circuit Design 
 1. <u>**Topic-wise Lab Work and summary of the each topics lecture wise**</u></br>
    Each topics are divided into lectures with respective Lab works with separate .md files for each topics, which contains a detailed explanation of the topics, SPICE setups, plots, calculations, and observations.
 
- Structure of each repository:
+ Structure of each file:
+
+ 📦Day1-Basics of NMOS Drain Current(Id) vs Drain-to-source Voltage(Vds)
+  └─ readmeday1.md
+ 📦Day2-Velocity saturation and basics of CMOS inverter VTC
+  └─ readmeday2.md
+ 📦Day3-CMOS switching threshold and dynamic simulations
+  └─ readmeday3.md
+ 📦Day4-CMOS noise margin robustness evaluation
+  └─ readmeday4.md
+ 📦Day5-CMOS power supply and device variation robustness evaluation
+  └─ readmeday5.md
 
  
 
